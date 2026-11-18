@@ -1,0 +1,31 @@
+{
+  "name": "urbanrise-site-visits",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-first site visit outcome tracker for the Urbanrise pre-screening assignment",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "start": "bun server/server.ts",
+    "dev": "bun run build && bun --watch server/server.ts",
+    "test": "bun test",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@hono/bun": "^1.0.1",
+    "drizzle-orm": "^0.45.4",
+    "hono": "^4.7.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.4",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "drizzle-kit": "^0.31.11",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}
