@@ -14,7 +14,7 @@ From this directory:
 bun install && bun run dev
 ```
 
-Open <http://localhost:3000>. The initial view shows Farhan's visits on 6 October 2026. Change the executive or date to view another schedule.
+Open <http://localhost:3003>. The initial view shows Farhan's visits on 6 October 2026. Change the executive or date to view another schedule.
 
 Run the automated backend tests with:
 
